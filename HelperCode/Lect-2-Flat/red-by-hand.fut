@@ -1,9 +1,9 @@
 -- Reduction by hand in Futhark: red-by-hand.fut
 -- ==
 -- entry: futharkRed naiveRed
--- compiled input { [1.0f32, -2.0f32, 3.0f32, 1.0f32] }
+-- compiled input { [1.0f32, -2.0f32, 3.0f32, 1.0f32] } for short small datasets for testing purposes 
 -- output { 3.0f32 }
--- compiled random input { [33554432]f32 }
+-- compiled random input { [33554432]f32 } auto output(compares result to sequential process)
 
 --
 -- compiled input @ data/f32-arr-16K.in
